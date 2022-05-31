@@ -1,0 +1,71 @@
+#main {
+	
+	 width: 75%;
+  height: 50%;
+	
+	 position: absolute;
+	 top: 0;
+	 bottom: 0;
+	 left: 0;
+	 right: 0;
+	
+	 margin: auto;
+	
+	 text-align: center; 
+
+	
+}
+
+#question {
+	
+	  display: block;
+	  font-size: 700%;
+	  text-align: center;
+	  padding: 5%;
+	  
+}
+
+#input {
+	
+	  height: 5%;
+	  width: 17%;
+	
+}
+
+#answer {
+	
+	 margin-top: 5%;
+	 text-align: center;
+		
+}
+
+#controls {
+	
+ 	 display: block;
+ 	 height: 10%; 
+ 	 width: 100%;
+	
+	 margin-top: 5%;
+	
+}
+
+#controls button {
+	
+	  height: 50%; 
+	  width: 20%;
+	 
+	
+}
+
+#msg {
+	
+	font-size: 500%;
+	
+	
+}
+
+#tts {
+	
+	  margin-top: 5%;  	  
+	
+}

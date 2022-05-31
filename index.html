@@ -1,0 +1,47 @@
+<html lang="en">
+	<head>
+		
+		<title> Abacus Question Generator</title>
+		
+		<link rel="stylesheet" href="styles/style.css">		
+		 	
+		
+		 </head>
+		 <body onload="setup()">
+		 		 	
+		 	<div id="main">
+		 		
+		 		 <span id="question"> Question </span> 
+		 		 <span id="answer">
+		 		 	
+		 		 	  <input type="number" size="7" placeholder="your answer" max="5" id="input"></input>
+		 		 	
+		 		 </span>
+		 		 
+		 		 <span id="controls">
+		 		 	
+		 		 	 <button id="check" onclick="checkup()">check</button> 
+		 		 	 <button id="show" onclick="show()">show</button>
+		 		 	 <button id="next" onclick="setup()">next</button>
+		      <br/> 
+		 		 	 <input type="checkbox" id="tts" onchange="ttsCheck(this)">TTS</input>
+		 		 	
+		 		 </span>
+		 		 
+		 		 <span id="msg">Good Luck!</span>
+		 		
+		 	</div>
+		 	
+		
+			<script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+<script>eruda.init();</script>
+		 	
+		
+		  	<script src="scripts/tts.js"></script>
+		
+		 	<script src="scripts/script.js"></script> 
+		 	 
+
+		 	
+		 	</body>
+	</html>

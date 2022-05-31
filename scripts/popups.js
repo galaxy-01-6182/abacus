@@ -1,0 +1,1 @@
+window.alert('Greetings, This site provides you random math questions ( which was originally intentended to abacus learners but now everyone can use it).\nHappy Solving!')
